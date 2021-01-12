@@ -1,0 +1,44 @@
+body {
+	background: #d2d2c1 url('imagens/fundo.png');
+	/*foi utilizado a cor de fundo e uma imagem pro caso da imagem não carregar a cor fazer o suporte*/
+	font: 16px Arial, Helvetica,, sans-serif; 
+
+}
+
+#principal {
+	/*border: 1px solid red;*/
+	width: 900px; /*para definir a largura*/
+	/* height: 500px; para definir a altura*/
+}
+
+#menu {
+	background: #c5c5b2;
+	padding: 18px; /*padding aplica um espaçamento interno*/
+	text-align: center;
+
+}
+
+#conteudo {
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none; 
+	font-weight: bold;
+	padding: 5px;
+}
+
+#rodape {
+	text-align: center;
+}
+
+h1 {
+	color: #828271;
+	font-size: 1.2em; 
+}
+
+.img-campanha { /*para todas as imagens da campanha*/
+	border: 10px solid #c3c3ae;
+}
