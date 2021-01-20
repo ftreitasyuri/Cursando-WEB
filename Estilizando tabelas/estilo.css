@@ -1,0 +1,40 @@
+/*estilizando tabelas*/
+
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+	width: 600px;
+	/*o comando border-collapse serve para adionar espaçamento entre as bordas ou remover*/
+	border-collapse: collapse; 
+
+}
+
+th, td {
+	/*border: 1px solid red;*/
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase; /*uppercase serve para deixar todas as letras maiusculas*/
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em; /*esse comando serve para colocar espaçamento entre as letras*/
+}
+
+tr.alternado {
+	background-color: #efefef;
+}
+
+ .mouse:hover {
+ 	background-color: #c3e6e5;
+ }
+
+.numero {
+	text-align: right;
+
+}
