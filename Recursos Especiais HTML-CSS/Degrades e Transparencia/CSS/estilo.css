@@ -1,0 +1,21 @@
+/* #caixa {
+    background-color: rgb(89, 199, 56);
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    box-sizing: border-box;
+
+} */
+
+#caixa {
+    /* background: url(../imagens/camera.png); */
+    width: 300px;
+    height: 300px;
+    /* background: linear-gradient(to right, rgb(140, 140, 238), rgb(112, 230, 112), rgb(230, 230, 101)); */
+    background: radial-gradient(rgb(140, 140, 238), rgb(112, 230, 112), rgb(230, 230, 101));
+} 
+
+#caixa h1 {
+    /* background: rgba(255, 255, 255, 0.5); */
+     /* sites de cores: https://www.w3schools.com/css/css_colors_rgb.asp*/
+}
