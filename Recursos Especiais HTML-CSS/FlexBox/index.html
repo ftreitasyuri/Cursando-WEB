@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>Flex Box</title>
+
+    <style type="text/css">
+
+        #conteudo{
+            background: #dcdcdc;
+            
+            height: 400px;
+            display: flex; /*display mudado para flex*/
+
+            /*row| row-reverse|column|column-reverse*/
+            flex-direction: row; /*para usar flex-direction precisa musar o display para flex*/
+          
+            /*nowrap seve para apertar e não quebrar
+            | wrap serve para quebrar quando diminue a tela
+            |wrap-reverse serve para inverter para baixo*/
+           
+            flex-wrap: nowrap; /*serve para não quebrar os intem e sim apertar para caber no container*/
+
+            
+            /*flex-start| flex-end|center|space-between|space-around*/
+
+            justify-content: space-around; /*alinhamento na horizontal*/
+
+            /*
+            stretch serve para esticar, é o padrao
+            center serve para alinhar no centro do container
+            flex-start serve para alinhar no topo
+            flex-end serve para alinhar embaixo
+            baseline serve para alinhar na linha do texto
+            */
+            
+            align-items: baseline;
+        }
+        .item{
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+            
+            /* background: white;
+            border: 1px solid gray; */
+        }
+
+        .item img{
+            width: 200px;
+            border-radius: 100px;
+            box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.9);
+            /* box-shadow
+                1° valor sombra na horizontal
+                2° valor sombra na vertical
+                3° valor espalhar a sombra
+                4° valor tamanho da sombra
+                rgba(0,0,0,0.5) opacidade da sombra
+            */
+        }
+
+        .item img:hover {
+            width: 250px;
+            border-radius: 125px;
+            transition: 3s;
+            box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.9);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>FlexBox</h1>
+    <div id="conteudo">
+        <div class="item">
+            <img src="imagens/foto-noite.png" alt="">
+        </div>
+       
+        <div class="item">
+            <img src="imagens/foto-manha.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imagens/foto-tarde.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imagens/foto-noite.png" alt="">
+        </div>
+
+      
+        
+        
+
+    </div>
+      
+    
+</body>
+</html>
